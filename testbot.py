@@ -17,8 +17,8 @@ def callback():
     #id=[d['replyToken'] for d in user][0]
     #print(json_line)
     print(user)
-    sendText(user.ToString(),"งง") # ส่งข้อความ งง
-    return ''+200
+    sendText(user,"งง") # ส่งข้อความ งง
+    return '',200
  
 def sendText(user, text):
     LINE_API = 'https://api.line.me/v2/bot/message/reply'
