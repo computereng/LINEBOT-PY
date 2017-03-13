@@ -39,8 +39,8 @@ if channel_access_token is None:
     print('Specify LINE_CHANNEL_ACCESS_TOKEN as environment variable.')
     sys.exit(1)
 
-line_bot_api = LineBotApi(channel_access_token)
-parser = WebhookParser(channel_secret)
+line_bot_api = LineBotApi(LZArldUUHwHc6ROvqoAeGz5Kdft2ShdvagfCoiaoPaTpxqjvtA4ImaLk6hbkVguSX6pqlYaJFRB/pLt/q/Ct5w4chCz8hShgIVBOzZYuYM1YPHg8FJ0KS4G8GD3T0iFv7qAbmBvIfFYElhJ+MRgXtQdB04t89/1O/w1cDnyilFU=)
+parser = WebhookParser(74e40fa2473a6d9681f1f59d5a807b30)
 
 
 def application(environ, start_response):
