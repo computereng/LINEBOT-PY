@@ -17,7 +17,7 @@ def callback():
     #id=[d['replyToken'] for d in user][0]
     #print(json_line)
     print(user)
-    sendText(user) # ส่งข้อความ งง
+    sendText(user.toString()) # ส่งข้อความ งง
     return ''+200
  
 def sendText(user, text):
